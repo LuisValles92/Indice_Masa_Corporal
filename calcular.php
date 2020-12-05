@@ -7,7 +7,7 @@ if( isset($_POST['calcular']) ) {
           $html.= '<a href="imc.php"><img src="Imagenes/icon_home.gif" /><br>Home</a></p>';
       echo $html;
   } else {
-      header("Location: imc.php");
+      header("Location: index.php");
   } 
      
        
