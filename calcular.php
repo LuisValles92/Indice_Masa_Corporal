@@ -4,7 +4,7 @@ if( isset($_POST['calcular']) ) {
           $altura =  $_POST['altura']; 
           $html = resultado($peso, $altura, imc($peso, $altura));
           $html.= '<p class="centrado">';
-          $html.= '<a href="imc.php"><img src="Imagenes/icon_home.gif" /><br>Home</a></p>';
+          $html.= '<a href="index.php"><img src="Imagenes/icon_home.gif" /><br>Home</a></p>';
       echo $html;
   } else {
       header("Location: index.php");
